@@ -35,7 +35,7 @@ otherwise to run using an alternative video sequence, create a symbolic link fro
 $ ln -s /path/to/videoSequence/frames images/img1
 ```
 
-To run the code and generate ```detection.txt``` and ```tracking.txt``` files and videos in output/folder:
+To run the code and generate ```detection.txt``` and ```tracking.txt``` files and videos in ```output``` folder:
 
 ```
 $ python sort.py --display
