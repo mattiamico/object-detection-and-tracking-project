@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 ```
 
 ### How to run:
-Dowload the required YOLO pre-trained mode ( https://drive.google.com/file/d/1FaxA6lHYoKV0SDCBtKD5vqKqRXOL8YjC/view?usp=sharing) inside path/to/A1_code/yolo 
+Dowload the required YOLO pre-trained mode ( https://drive.google.com/file/d/1FaxA6lHYoKV0SDCBtKD5vqKqRXOL8YjC/view?usp=sharing) inside ```path/to/A1_code``` 
 
 ```
 $ cd path/to/A1_code
