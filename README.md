@@ -29,7 +29,7 @@ Dowload the required YOLO pre-trained mode ( https://drive.google.com/file/d/1Fa
 $ cd path/to/A1_code
 ```
 
-the frames of the proposed MOT video are located at [images/img1], in order to provide the reference data used.
+the frames of the proposed MOT video are located at ```images/img1```, in order to provide the reference data used.
 otherwise to run using an alternative video sequence, create a symbolic link from the external im1 directory, containing the frames to be provided as input, to the local images directory:
 ```
 $ ln -s /path/to/videoSequences/img1 images/img
