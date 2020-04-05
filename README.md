@@ -10,18 +10,18 @@ and more others
 
 To install required dependencies run:
 
-$ pip install -r requirements.txt
+[$ pip install -r requirements.txt]
 
 ### How to run:
 Dowload the required YOLO pre-trained mode ( https://drive.google.com/file/d/1FaxA6lHYoKV0SDCBtKD5vqKqRXOL8YjC/view?usp=sharing) inside path/to/A1_code/yolo 
 
-To run the code and generate txt files and videos:
+[$ cd path/to/A1_code]
 
-$ cd path/to/A1_code
+the frames of the proposed MOT video are located at [images/img1], in order to provide the reference data used.
+otherwise to run using an alternative video sequence, create a symbolic link from the external im1 directory, containing the frames to be provided as input, to the local images directory:
+[$ ln -s /path/to/videoSequences/img1 images/img]
 
-Create a symbolic link from the external im1 directory, containing the frames to be provided as input, to the local images directory:
+To run the code and generate [detection.txt] and [tracking.txt] files and videos in output/folder:
 
-$ ln -s /path/to/videoSequences/img1 images/img1
-
-$ python sort.py --display
+[$ python sort.py --display]
 
