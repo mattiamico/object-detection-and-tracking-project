@@ -229,7 +229,7 @@ def parse_args():
   """Parse input arguments."""
   parser = argparse.ArgumentParser(description='detection with YOLO, tracking with SORT')
   parser.add_argument('--display', dest='display', help='Display online tracker output (slow) [False]',action='store_true')
-  #parser.add_argument("-i", "--inputImagesFolder", type=str, default="images/im1" help="path to input images folder")
+  #parser.add_argument("-i", "--inputImagesFolder", type=str, default="images/img1" help="path to input images folder")
   parser.add_argument("-d", "--outputFilesPath", type=str, default="output", help="path to detection and tracking output txt files")	
   parser.add_argument("-y", "--yolo", type=str, default="yolo-coco", help="base path to YOLO directory")
   parser.add_argument("-c", "--confidence", type=float, default=0.5, help="minimum probability to filter weak detections")
@@ -245,8 +245,8 @@ def generate_YOLO_detection(img_dir):
   LABELS = open(labelsPath).read().strip().split("\n")
   
   if(display):
-    if not os.path.exists('images/im1'):
-      print('\n\tERROR: im1 link not found!\n\n    Create a symbolic link to the m1 dir\n')
+    if not os.path.exists('images/img1'):
+      print('\n\tERROR: img1 link not found!\n\n    Create a symbolic link to the m1 dir\n')
       exit()
 
   # initialize a list of colors to represent each possible class label
@@ -395,7 +395,7 @@ if __name__ == '__main__':
   total_frames = 0 
   colours = np.random.rand(32,3) #used only for display
   
-  img_dir="images/im1"
+  img_dir="images/img1"
   if not os.path.exists('output'):
     os.makedirs('output')
 
