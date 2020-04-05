@@ -1,3 +1,11 @@
+The task of this assignment is to detect and track people in a video taken from the MOT challenge
+
+Tracking: for each pedestrian in the scene, provide the trajectory of the center of the bounding box. As a validation metric, compute the average displacement error between the center of your bounding box and the the one computed on the ground truth data (ground truth provides only top left corner, width and height of each bounding box).
+
+Detection : for each pedestrian in the scene, provide the detected bounding box using a pedestrian detector.
+
+
+
 This code has been tested on Mac OSX 10.14 with Python 3.7 (anaconda)
 
 ### Dependencies:
