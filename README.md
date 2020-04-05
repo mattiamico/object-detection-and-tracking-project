@@ -30,7 +30,7 @@ $ cd path/to/A1_code
 ```
 
 the frames of the proposed MOT video are located at ```images/img1```, in order to provide the reference data used.
-otherwise to run using an alternative video sequence, create a symbolic link from an external  directory, containing the frames to be provided as input, to the local images directory im1:
+otherwise to run using an alternative video sequence, create a symbolic link from an external  directory, containing the frames to be provided as input, to the expected local images directory img1:
 ```
 $ ln -s /path/to/videoSequence/frames images/img1
 ```
